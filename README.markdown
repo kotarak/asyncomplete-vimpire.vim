@@ -6,7 +6,7 @@ A completion source for [asyncomplete.vim](https://github.com/prabirshrestha/asy
 
 ```vim
 Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'yami-beta/asyncomplete-vimpire.vim'
+Plug 'kotarak/asyncomplete-vimpire.vim'
 ```
 
 Or use pathogen. Or vim's package.
