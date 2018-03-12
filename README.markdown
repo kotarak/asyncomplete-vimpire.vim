@@ -14,7 +14,7 @@ Or use pathogen. Or vim's package.
 ## Register asyncomplete-vimpire.vim
 
 ```vim
-call asyncomplete#register_source(asyncomplete#sources#vimpire#get_source_options({
+au User asyncomplete_setup call asyncomplete#register_source(asyncomplete#sources#vimpire#get_source_options({
             \ 'name': 'vimpire',
             \ 'whitelist': ['clojure'],
             \ 'completor': function('asyncomplete#sources#vimpire#completor')
