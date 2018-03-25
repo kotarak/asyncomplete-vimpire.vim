@@ -29,7 +29,7 @@ function! asyncomplete#sources#vimpire#get_source_options(opts)
 endfunction
 
 function! asyncomplete#sources#vimpire#completor(opt, ctx)
-    call vimpire#backend#AsyncComplete(a:ctx.typed, a:ctx.col,
+    call vimpire#backend#complete#AsyncComplete(a:ctx.typed, a:ctx.col,
                 \ function("asyncomplete#complete", [a:opt.name, a:ctx]))
 endfunction
 
